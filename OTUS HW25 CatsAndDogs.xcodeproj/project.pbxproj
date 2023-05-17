@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDBE6EBB2A14E90000FEECFA /* OTUS_HW25_CatsAndDogsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE6EBA2A14E90000FEECFA /* OTUS_HW25_CatsAndDogsApp.swift */; };
+		BDBE6EBD2A14E90000FEECFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE6EBC2A14E90000FEECFA /* ContentView.swift */; };
+		BDBE6EBF2A14E90200FEECFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBE6EBE2A14E90200FEECFA /* Assets.xcassets */; };
+		BDBE6EC22A14E90200FEECFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBE6EC12A14E90200FEECFA /* Preview Assets.xcassets */; };
+		BDBE6ECA2A14F18700FEECFA /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE6EC92A14F18700FEECFA /* ImagePickerView.swift */; };
+		BDBE6ECC2A14F1BA00FEECFA /* ImagePickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE6ECB2A14F1BA00FEECFA /* ImagePickerViewModel.swift */; };
+		BDBE6ECF2A14F21E00FEECFA /* MLViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE6ECE2A14F21E00FEECFA /* MLViewModel.swift */; };
+		BDBE6ED12A14F24C00FEECFA /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE6ED02A14F24C00FEECFA /* ImageClassifier.swift */; };
+		BDBE6ED52A14F31700FEECFA /* CatOrDogClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BDBE6ED42A14F31700FEECFA /* CatOrDogClassifier.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BDBE6EB72A14E90000FEECFA /* OTUS HW25 CatsAndDogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OTUS HW25 CatsAndDogs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBE6EBA2A14E90000FEECFA /* OTUS_HW25_CatsAndDogsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTUS_HW25_CatsAndDogsApp.swift; sourceTree = "<group>"; };
+		BDBE6EBC2A14E90000FEECFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BDBE6EBE2A14E90200FEECFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDBE6EC12A14E90200FEECFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDBE6EC92A14F18700FEECFA /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		BDBE6ECB2A14F1BA00FEECFA /* ImagePickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewModel.swift; sourceTree = "<group>"; };
+		BDBE6ECE2A14F21E00FEECFA /* MLViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLViewModel.swift; sourceTree = "<group>"; };
+		BDBE6ED02A14F24C00FEECFA /* ImageClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassifier.swift; sourceTree = "<group>"; };
+		BDBE6ED42A14F31700FEECFA /* CatOrDogClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CatOrDogClassifier.mlmodel; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDBE6EB42A14E90000FEECFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDBE6EAE2A14E90000FEECFA = {
+			isa = PBXGroup;
+			children = (
+				BDBE6EB92A14E90000FEECFA /* OTUS HW25 CatsAndDogs */,
+				BDBE6EB82A14E90000FEECFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDBE6EB82A14E90000FEECFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDBE6EB72A14E90000FEECFA /* OTUS HW25 CatsAndDogs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDBE6EB92A14E90000FEECFA /* OTUS HW25 CatsAndDogs */ = {
+			isa = PBXGroup;
+			children = (
+				BDBE6ECD2A14F20600FEECFA /* ImageData+ML */,
+				BDBE6EC82A14F16E00FEECFA /* ImagePicker */,
+				BDBE6EBA2A14E90000FEECFA /* OTUS_HW25_CatsAndDogsApp.swift */,
+				BDBE6EBC2A14E90000FEECFA /* ContentView.swift */,
+				BDBE6EBE2A14E90200FEECFA /* Assets.xcassets */,
+				BDBE6EC02A14E90200FEECFA /* Preview Content */,
+			);
+			path = "OTUS HW25 CatsAndDogs";
+			sourceTree = "<group>";
+		};
+		BDBE6EC02A14E90200FEECFA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BDBE6EC12A14E90200FEECFA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BDBE6EC82A14F16E00FEECFA /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				BDBE6EC92A14F18700FEECFA /* ImagePickerView.swift */,
+				BDBE6ECB2A14F1BA00FEECFA /* ImagePickerViewModel.swift */,
+			);
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
+		BDBE6ECD2A14F20600FEECFA /* ImageData+ML */ = {
+			isa = PBXGroup;
+			children = (
+				BDBE6ED42A14F31700FEECFA /* CatOrDogClassifier.mlmodel */,
+				BDBE6ECE2A14F21E00FEECFA /* MLViewModel.swift */,
+				BDBE6ED02A14F24C00FEECFA /* ImageClassifier.swift */,
+			);
+			path = "ImageData+ML";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDBE6EB62A14E90000FEECFA /* OTUS HW25 CatsAndDogs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBE6EC52A14E90200FEECFA /* Build configuration list for PBXNativeTarget "OTUS HW25 CatsAndDogs" */;
+			buildPhases = (
+				BDBE6EB32A14E90000FEECFA /* Sources */,
+				BDBE6EB42A14E90000FEECFA /* Frameworks */,
+				BDBE6EB52A14E90000FEECFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OTUS HW25 CatsAndDogs";
+			productName = "OTUS HW25 CatsAndDogs";
+			productReference = BDBE6EB72A14E90000FEECFA /* OTUS HW25 CatsAndDogs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDBE6EAF2A14E90000FEECFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					BDBE6EB62A14E90000FEECFA = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = BDBE6EB22A14E90000FEECFA /* Build configuration list for PBXProject "OTUS HW25 CatsAndDogs" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDBE6EAE2A14E90000FEECFA;
+			productRefGroup = BDBE6EB82A14E90000FEECFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDBE6EB62A14E90000FEECFA /* OTUS HW25 CatsAndDogs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDBE6EB52A14E90000FEECFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBE6EC22A14E90200FEECFA /* Preview Assets.xcassets in Resources */,
+				BDBE6EBF2A14E90200FEECFA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDBE6EB32A14E90000FEECFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBE6EBD2A14E90000FEECFA /* ContentView.swift in Sources */,
+				BDBE6ED52A14F31700FEECFA /* CatOrDogClassifier.mlmodel in Sources */,
+				BDBE6ECA2A14F18700FEECFA /* ImagePickerView.swift in Sources */,
+				BDBE6ECC2A14F1BA00FEECFA /* ImagePickerViewModel.swift in Sources */,
+				BDBE6ECF2A14F21E00FEECFA /* MLViewModel.swift in Sources */,
+				BDBE6ED12A14F24C00FEECFA /* ImageClassifier.swift in Sources */,
+				BDBE6EBB2A14E90000FEECFA /* OTUS_HW25_CatsAndDogsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BDBE6EC32A14E90200FEECFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDBE6EC42A14E90200FEECFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDBE6EC62A14E90200FEECFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OTUS HW25 CatsAndDogs/Preview Content\"";
+				DEVELOPMENT_TEAM = 2H2TF9RPVD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kasianov.OTUS-HW25-CatsAndDogs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDBE6EC72A14E90200FEECFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OTUS HW25 CatsAndDogs/Preview Content\"";
+				DEVELOPMENT_TEAM = 2H2TF9RPVD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kasianov.OTUS-HW25-CatsAndDogs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDBE6EB22A14E90000FEECFA /* Build configuration list for PBXProject "OTUS HW25 CatsAndDogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBE6EC32A14E90200FEECFA /* Debug */,
+				BDBE6EC42A14E90200FEECFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBE6EC52A14E90200FEECFA /* Build configuration list for PBXNativeTarget "OTUS HW25 CatsAndDogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBE6EC62A14E90200FEECFA /* Debug */,
+				BDBE6EC72A14E90200FEECFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDBE6EAF2A14E90000FEECFA /* Project object */;
+}
